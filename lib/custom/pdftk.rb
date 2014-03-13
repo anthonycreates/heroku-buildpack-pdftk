@@ -9,7 +9,7 @@ class Pdftk < BaseCustom
   end
 
   def source_url
-    "http://s3.amazonaws.com/CHANGE-TO-YOUR-BUCKET/pdftk.tar.gz"
+    "http://bins.prod.bev-digest.s3.amazonaws.com/pdftk/pdftk.tar.gz"
   end
 
   def used?
